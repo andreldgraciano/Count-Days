@@ -1,6 +1,6 @@
 function contarDias() {
-    const dataInicial = new Date("2023-11-26"); // Data inicial
-    const dataAtual = new Date(); // Data atual
+    const dataInicial = new Date("2023-11-26");
+    const dataAtual = new Date();
 
     const diferencaTempo = dataAtual - dataInicial;
 
