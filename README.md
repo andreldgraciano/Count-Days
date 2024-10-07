@@ -8,4 +8,4 @@ Uma aplicação para contar os dias de namoro.
 - Tailwindcss
 - Git e GitHub
 
-<p align="center"><img src="Count-Days.png" width="600" alt="Layout Responsivo"></p>
+<p align="center"><img src="Count-Days.png" width="350" alt="Layout Responsivo"></p>
