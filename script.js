@@ -7,9 +7,4 @@ function contarDias() {
     const diasPassados = Math.floor(diferencaTempo / (1000 * 60 * 60 * 24));
 
     document.getElementById("days").textContent = diasPassados + ' dias';
-
-    const horas = dataAtual.getHours();
-    const minutos = dataAtual.getMinutes();
-
-    document.getElementById("teste").textContent = horas + ' horas e ' + minutos + ' minutos';
 }
