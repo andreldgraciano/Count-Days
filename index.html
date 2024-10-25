@@ -8,8 +8,7 @@
     <!-- npm run dev -->
     <link rel="stylesheet" href="./assets/css/output.css">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Qwitcher+Grypen:wght@400;700&display=swap" rel="stylesheet"
-        style="font-display: swap;">
+    <link href="https://fonts.googleapis.com/css2?family=Qwitcher+Grypen:wght@400;700&display=swap" rel="stylesheet">
     <meta property="og:title" content="Contador de dias." />
     <meta property="og:description" content="Há quanto tempo eu te amo?" />
     <meta property="og:image" content="https://andreldgraciano.github.io/Count-Days/foto1.jpg" />
@@ -23,7 +22,8 @@
     </audio>
 
     <!-- Adicionar fotos ao passar dos anos -->
-    <main class="h-dvh w-full flex flex-col items-center justify-center bg-repeat bg-red-800 bg-main" loading="lazy">
+    <main class="relative h-dvh w-full flex flex-col items-center justify-center bg-repeat bg-red-800 bg-main">
+        <img id="imgGato" src="" alt="Gatinho" class="absolute top-0 right-0 w-20 h-20 object-cover hidden">
         <section class="h-1/2 w-full max-w-[600px] flex items-end bg-section-1">
             <div
                 class="w-[250px] h-[150px] bg-white/20 backdrop-blur-md rounded-tr-lg flex justify-center items-center gap-4 text-white text-4xl">
@@ -39,9 +39,9 @@
                 </svg>
             </div>
         </section>
-        <section class="h-1/2 w-full max-w-[600px] flex bg-section-2" loading="lazy">
+        <section class="h-1/2 w-full max-w-[600px] flex bg-section-2">
             <div
-                class="w-[250px] h-[80px] bg-black/70 backdrop-blur-sm rounded-br-lg flex gap-2 justify-center items-center text-2xl text-black border-b border-r border-stone-600">
+                class="w-[250px] h-[80px] backdrop-blur-sm rounded-br-lg flex gap-2 justify-center items-center text-2xl text-black border-b border-r border-stone-600">
                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
                     stroke="currentColor" class="size-6">
                     <path stroke-linecap="round" stroke-linejoin="round"
